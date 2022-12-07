@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import { Home } from "./pages/home"
-import { Cards } from "./pages/cards"
+import { Card } from "./pages/card"
+import { Allcards } from "./pages/allcards"
 import { Navbar } from "./components/Navbar"
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Container className="mb-4">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Cards" element={<Cards />} />
+          <Route path="/card" element={<Card />} />
+          <Route path="/allCards" element={<Allcards />} />
         </Routes>
       </Container>
     </>

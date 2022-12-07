@@ -1,4 +1,5 @@
 import { Card } from "react-bootstrap"
+import "./styles.css"
 
 type CardItemProps = {
     id: number,
@@ -9,11 +10,13 @@ type CardItemProps = {
 
 export function CardItem({ id, suit, rank, img }:
     CardItemProps) {
+
     return (
-        <Card>
-            <Card.Img variant="top" src={img} height="200px" style={
-                { objectFit: "contain" }
-            } />
+        <Card className="card" onClick={() => console.log("click")} style={{ width: "14rem" }}>
+            <Card.Img
+                variant="top"
+                src={img}
+                style={{ objectFit: "contain" }} />
         </Card>
     )
 }

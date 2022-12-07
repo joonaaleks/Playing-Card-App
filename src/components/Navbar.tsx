@@ -9,8 +9,11 @@ export function Navbar() {
                     <Nav.Link to="/" as={NavLink}>
                         Home
                     </Nav.Link>
-                    <Nav.Link to="/Cards" as={NavLink}>
+                    <Nav.Link to="/card" as={NavLink}>
                         Cards
+                    </Nav.Link>
+                    <Nav.Link to="/allCards" as={NavLink}>
+                        All Cards
                     </Nav.Link>
                 </Nav>
             </Container>
