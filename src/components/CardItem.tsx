@@ -11,8 +11,12 @@ type CardItemProps = {
 export function CardItem({ id, suit, rank, img }:
     CardItemProps) {
 
+    function log() {
+        console.log(id)
+    }
+
     return (
-        <Card className="card" onClick={() => console.log("click")} style={{ width: "14rem" }}>
+        <Card className="allCards" onClick={() => log()} style={{ width: "14rem" }}>
             <Card.Img
                 variant="top"
                 src={img}
