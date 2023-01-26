@@ -1,7 +1,7 @@
 # Playing Card App
 
 This is my own solo project, in which I use React framework and Typescript to make an app.
-In this app, the user is shown a deck of 52 playing cards, that are clickable, but I haven't implemented any functionality yet, outside of the "Choose a card" buttons, which open the card view.
+In this app, the user is shown a deck of 52 playing cards, that are clickable, but I haven't implemented any functionality yet, outside of the "Choose a card" buttons, which opens the card view.
 
 Here is a screenshot from the main view:
 
